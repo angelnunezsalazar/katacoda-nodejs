@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "wdio-mocha-framework": "^0.5.9",
+    "wdio-phantomjs-service": "^0.2.2",
+    "wdio-spec-reporter": "^0.1.0",
+    "webdriverio": "^4.2.16"
+  },
+  "scripts": {
+    "unit-test": "mocha test/unit-test",
+    "e2e-test": "wdio test/e2e-test/wdio.conf.js"
+  }
+}
