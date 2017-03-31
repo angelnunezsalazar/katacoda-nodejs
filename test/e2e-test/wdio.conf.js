@@ -1,6 +1,6 @@
 exports.config = {
   specs: [
-    './e2e-tests/*.js'
+    './test/e2e-test/*.js'
   ],
   exclude: [],
   sync: true,
