@@ -3,7 +3,7 @@ exports.config = {
     './test/e2e-test/*.js'
   ],
   exclude: [],
-  maxInstances: 1,
+  maxInstances: 2,
   sync: true,
   logLevel: 'error',
   coloredLogs: true,
