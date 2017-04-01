@@ -25,7 +25,7 @@ exports.config = {
     {
       browserName: 'firefox',
       platform: 'WIN10',
-      version: 'latest'
+      version: '47'
     }
   ],
   services: ['testingbot'],
